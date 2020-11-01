@@ -41,10 +41,7 @@ public class Application extends RepositoryRestMvcConfiguration {
 	//
 	// Tell Spring to launch our app!
 	public static void main(String[] args) {
+		System.out.println("start server");
 		SpringApplication.run(Application.class, args);
 	}
-
-	
-
-	
 }
